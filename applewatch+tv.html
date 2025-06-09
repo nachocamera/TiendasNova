@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Productos Destacados - Tiendas Nova</title>
+  <link rel="stylesheet" href="../estilos/producto.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #0a0a23;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #ddd;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section.producto-detalle {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      padding: 2rem;
+    }
+    .producto-img {
+      flex: 1 1 300px;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 12px;
+      margin-right: 2rem;
+    }
+    .producto-info {
+      flex: 2 1 300px;
+    }
+    .producto-info h2 {
+      color: #0a0a23;
+      font-size: 2rem;
+      margin-top: 0;
+    }
+    .producto-info ul {
+      padding-left: 1.2rem;
+    }
+    .btn-contacto {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #25d366;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      section.producto-detalle {
+        flex-direction: column;
+        padding: 1rem;
+      }
+      .producto-img {
+        margin: 0 0 1rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Productos Destacados</h1>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="http://127.0.0.1:5500/tienda.html">Tienda</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="producto-detalle">
+      <img src="imagenes/apple watch.png" alt="Apple Watch Ultra Gold" class="producto-img" />
+      <div class="producto-info">
+        <h2>Apple Watch Ultra Gold - Calidad AAA+</h2>
+        <p>El Apple Watch Ultra Gold combina tecnología de punta con un diseño premium y durabilidad excepcional. Ideal para usuarios que buscan estilo y funcionalidad avanzada.</p>
+        <ul>
+          <li>Pantalla Retina Always-On más grande y brillante</li>
+          <li>Material de titanio en color oro, ligero y resistente</li>
+          <li>GPS, monitor de frecuencia cardíaca y sensor de oxígeno</li>
+          <li>Resistencia al agua hasta 100 metros</li>
+          <li>Compatible con apps y notificaciones</li>
+          <li>Fabricado con componentes AAA+ similares a los originales</li>
+        </ul>
+        <a href="https://wa.me/1150080595?text=Hola%20quiero%20más%20información%20sobre%20el%20Apple%20Watch%20Ultra%20Gold" class="btn-contacto">Consultar por WhatsApp</a>
+      </div>
+    </section>
+    <section class="producto-detalle">
+      <img src="imagenes/tv box.jpg" alt="TV Box Smart Convertidor" class="producto-img" />
+      <div class="producto-info">
+        <h2>TV Box Smart Convertidor - Calidad AAA+</h2>
+        <p>Convierte cualquier televisor en un Smart TV con acceso a streaming, apps y navegación web. Perfecto para disfrutar de contenido digital desde la comodidad de tu hogar.</p>
+        <ul>
+          <li>+500 canales + Netflix + Spotify + Youtube + Juegos</li>
+          <li>Soporta resolución hasta 4K UHD</li>
+          <li>Interfaz intuitiva y compatible con apps populares</li>
+          <li>Conexión WiFi y puertos HDMI, USB y Ethernet</li>
+          <li>Control remoto incluido</li>
+          <li>Diseño compacto y fácil de instalar</li>
+          <li>Componentes AAA+ que garantizan calidad y durabilidad</li>
+        </ul>
+        <a href="https://wa.me/1150080595?text=Hola%20quiero%20más%20información%20sobre%20el%20TV%20Box%20Smart" class="btn-contacto">Consultar por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align:center; padding:1rem; background:#0a0a23; color:white;">&copy; 2025 Tiendas Nova</p>
+  </footer>
+</body>
+</html>
