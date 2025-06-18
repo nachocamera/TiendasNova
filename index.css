@@ -325,6 +325,42 @@
 .btn-contacto:hover {
   background-color: #2ea3be;
 }
+.welcome-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 15px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #1a1a1a;
+}
+
+.welcome-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.welcome-image {
+  max-width: 400px; /* imagen un poco más grande */
+  height: auto;
+  object-fit: contain;
+}
+
+.welcome-title {
+  font-size: 3.8rem; /* título más grande */
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+.welcome-text {
+  font-size: 1.25rem; /* texto más grande */
+  line-height: 1.7;
+  max-width: 850px;
+  margin: 0 auto 50px;
+  color: #444;
+}
 
   
   
